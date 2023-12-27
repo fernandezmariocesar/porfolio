@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* Aplico estilos y voy anidando */
+.body {
+  background: #f0f0f0; }
+
+.carousel-caption .h2 {
+  font-family: "Muli", sans-serif;
+  font-weight: 900; }
+
+.carousel-caption .p {
+  font-family: "Rajdhani", sans-serif; }
+
+.main {
+  background: #f0f0f0; }
+  .main .h1 {
+    text-transform: uppercase;
+    font-family: "Muli", sans-serif;
+    font-weight: 900; }
+  .main .h2 {
+    font-family: "Rajdhani", sans-serif; }
+  .main .card {
+    background: none;
+    border: none; }
+    .main .card .card-header {
+      font-family: "Rajdhani", sans-serif;
+      background: #FBB900; }
+    .main .card .h3 {
+      font-family: "Muli", sans-serif;
+      font-weight: 900;
+      font-size: 1.2em; }
+      .main .card .h3 .resaltador {
+        background: #FBB900; }
+    .main .card .p {
+      font-family: "Rajdhani", sans-serif;
+      font-size: 1.2em; }
+
+.aside {
+  background: #FBB900; }
+  .aside .card {
+    background: none;
+    border: none; }
+    .aside .card .perfil {
+      border-radius: 50%; }
+    .aside .card .h4 {
+      font-family: "Muli", sans-serif;
+      font-weight: 900; }
+    .aside .card .p {
+      font-family: "Rajdhani", sans-serif;
+      font-size: 1.2em; }
+
+/* Aplico estilos para los títuos y textos*/
+.form-group, .btn {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2em; }
+
+/* Aplico estilos para el Menú Principal */
+.navbar {
+  background: #575756 !important;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #fff; }
+
+.nav-link:hover {
+  color: #FBB900 !important; }
+
+/* Aplico a las redes sociales del pie de página */
+#redes {
+  display: flex;
+  justify-content: space-around; }
+
+.red {
+  width: 25px;
+  height: 25px; }
+
+/* Imágenes al 100 % de su contenedor */
+.img {
+  width: 100%; }
+
+/* Elimino el fondo por default de Bootstrap*/
+.none {
+  background: none; }
+
+/* Habilidades en mi CV */
+.ps {
+  width: 60%; }
+
+.ai {
+  width: 80%; }
+
+.id, .ingles {
+  width: 50%; }
+
+/* Animaciones en Mario */
+.barra {
+  background-color: #ccc;
+  width: 90%;
+  margin: 15px auto; }
+
+/*indesign*/
+.indesign {
+  width: 50%;
+  height: 10px;
+  background-color: red;
+  animation-name: indesign;
+  /*animation-iteration-count: infinite; */
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+@keyframes indesign {
+  0% {
+    width: 10px; }
+  25% {
+    width: 20%; }
+  50% {
+    width: 30%;
+    background-color: pink; }
+  75% {
+    width: 40%; }
+  100% {
+    width: 50%;
+    background-color: red; } }
+
+/* illustrator */
+.illustrator {
+  width: 80%;
+  height: 10px;
+  background-color: orange;
+  animation-name: illustrator;
+  /*animation-iteration-count: infinite; */
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+@keyframes illustrator {
+  0% {
+    width: 10px; }
+  25% {
+    width: 20%; }
+  50% {
+    width: 40%;
+    background-color: yellow; }
+  75% {
+    width: 60%; }
+  100% {
+    width: 80%;
+    background-color: orange; } }
+
+/* photoshop*/
+.photoshop {
+  width: 60%;
+  height: 10px;
+  background-color: dodgerBlue;
+  animation-name: photoshop;
+  /*animation-iteration-count: infinite; */
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+@keyframes photoshop {
+  0% {
+    width: 10px; }
+  25% {
+    width: 15%; }
+  50% {
+    width: 30%;
+    background-color: blue; }
+  75% {
+    width: 45%; }
+  100% {
+    width: 60%;
+    background-color: dodgerBlue; } }
